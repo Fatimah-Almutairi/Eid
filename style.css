@@ -21,10 +21,11 @@ a{
     color: #fff;
     font-size: 1rem;
 }
-a:hover{
-    /* color: ; */
-    /* font-size: ;  I want to be zoom-in  */
-}
+/* a:hover{
+    color: ; 
+    font-size: ;  I want to be zoom-in 
+} */
+
 /* Header */
 
 header{
@@ -40,4 +41,21 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .menus{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
 }
