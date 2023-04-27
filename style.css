@@ -59,3 +59,8 @@ header{
     cursor: pointer;
     display: none;
 }
+
+.action-btn {
+    background-color: rgb(215, 142, 5);
+    color: #fff;
+}
