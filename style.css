@@ -60,7 +60,14 @@ header{
     display: none;
 }
 
-.action-btn {
+.action_btn {
     background-color: rgb(215, 142, 5);
     color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
 }
