@@ -98,6 +98,11 @@ header{
     justify-content: center;
 }
 
+.dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px){
     .navbar .menus,
