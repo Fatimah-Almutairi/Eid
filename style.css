@@ -82,3 +82,14 @@ header{
     scale: 0.95;
 }
 
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px){
+    .navbar .menus,
+    .navbar .action_btn{
+        display: none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+}
