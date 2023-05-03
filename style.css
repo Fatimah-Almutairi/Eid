@@ -109,6 +109,14 @@ header{
     display: flex;
     justify-content: center;
 }
+/* Hero */
+
+section#hero{
+    height: calc(100vh - 60px);
+}
+
+
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px){
     .navbar .menus,
@@ -118,5 +126,15 @@ header{
 
     .navbar .toggle_btn{
         display: block;
+    }
+    .dropdown_menu {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown_menu {
+        left: 2rem;
+        width: unset;
     }
 }
